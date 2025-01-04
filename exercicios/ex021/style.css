@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+    Somente um id por documento
+    HTML = id
+    CSS = h1#'id'
+*/
+body {
+    background-color: #FFF4E4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 20px;
+}
+h1#principal {
+    background-image: linear-gradient(to bottom, #9F0052, #0D3B66);
+    color: white;
+}
+h1 {
+    color: blanchedalmond;
+}
+
+.basico {
+    color: #9F0052;
+}
+/*
+    Mais de um class no mesmo documento
+    class="" -> HTML
+    ."class" -> CSS
+*/
